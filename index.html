@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manas Dalavi — Change-maker &amp; Computer Science Student</title>
+  <meta name="description"
+    content="Personal portfolio of Manas Dalavi, first-year Computer Science student at Newton School of Technology. Sincere builder, community contributor, and change-maker.">
+  <meta name="theme-color" content="#0B0906">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Manas Dalavi — Change-maker">
+  <meta property="og:description"
+    content="First-year Computer Science student at Newton School of Technology. Aware, empathetic, and sincere builder.">
+  <meta property="og:image" content="assets/portrait.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Cormorant Garamond & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Keyboard Accessible Skip Link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Ambient Film Grain Overlay -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- CSS-Only Fixed Navigation -->
+  <header class="site-header" role="banner">
+    <div class="nav-container" id="menu">
+      <!-- Collapsed Pill Link -->
+      <a href="#menu" class="nav-pill" aria-label="Open navigation menu">
+        <span class="nav-pill-dot" aria-hidden="true"></span>
+        <span class="nav-pill-label">Manas</span>
+        <svg class="chevron-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </a>
+
+      <!-- Full-screen backdrop to close menu when clicking outside -->
+      <a href="#close" class="nav-backdrop" aria-label="Close navigation overlay" tabindex="-1"></a>
+
+      <!-- Expanded Dropdown Panel -->
+      <nav class="nav-dropdown" aria-label="Primary Navigation">
+        <div class="nav-dropdown-header">
+          <span class="nav-dropdown-title">Navigation</span>
+          <a href="#close" class="nav-close-btn" aria-label="Close navigation">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </a>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#education" class="nav-link"><span class="nav-index">01</span> Education</a></li>
+          <li><a href="#experience" class="nav-link"><span class="nav-index">02</span> Experience</a></li>
+          <li><a href="#life" class="nav-link"><span class="nav-index">03</span> Life</a></li>
+          <li><a href="#contact" class="nav-link"><span class="nav-index">04</span> Contact</a></li>
+          <li><a href="#socials" class="nav-link"><span class="nav-index">05</span> Socials</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="hero" aria-label="Introduction">
+      <div class="hero-bg-media" aria-hidden="true">
+        <img src="assets/hero-bg.jpg" alt="" class="hero-bg-img" width="1920" height="1080">
+        <div class="hero-gold-overlay"></div>
+        <div class="hero-vignette"></div>
+        <div class="hero-dust-layer"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-spark" aria-hidden="true">✦</span>
+          <span>Student &amp; Builder · Newton School of Technology</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I am <span class="highlight-gold">Manas Dalavi.</span>
+        </h1>
+        <p class="hero-tagline">Change-maker.</p>
+        <p class="hero-subtext">
+          Guided by empathy, curiosity, and an earnest wish to build software that creates real, meaningful impact.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#education" class="btn btn-primary">
+            <span>Explore my path</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Get in touch</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Subtle Scroll Cue -->
+      <a href="#education" class="scroll-cue" aria-label="Scroll down to education section">
+        <span class="scroll-cue-mouse" aria-hidden="true">
+          <span class="scroll-cue-wheel"></span>
+        </span>
+        <span class="scroll-cue-text">Scroll to explore</span>
+      </a>
+    </section>
+
+    <!-- 2. EDUCATION SECTION -->
+    <section class="section education-section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+
+        <header class="section-header">
+          <span class="section-eyebrow">Origins &amp; Academics</span>
+          <h2 id="education-heading" class="section-title">Where I’m from, and where I’m at.</h2>
+        </header>
+
+        <!-- Introductory message & portrait layout -->
+        <div class="education-intro-grid">
+          <div class="education-message-card">
+            <div class="card-ornament" aria-hidden="true">✦</div>
+            <p class="education-message-text">
+              Where I’m from, and where I’m at. I’m Manas, a first-year Computer Science student at Newton School of
+              Technology. I grew up in Maharashtra, went through Podar International School and Sanjay Ghodawat Olympiad
+              School, and now I’m learning to build software that helps the people around me. I’m early in the journey,
+              and I’m using it to listen, learn and build.
+            </p>
+            <div class="education-quote-footer">
+              <span class="quote-signoff">— Manas Dalavi</span>
+              <span class="quote-loc">Maharashtra, India</span>
+            </div>
+          </div>
+
+          <div class="education-portrait-card">
+            <div class="portrait-frame">
+              <img src="assets/portrait.jpg" alt="Portrait photo of Manas Dalavi" class="portrait-img" width="600"
+                height="750" loading="lazy">
+              <div class="portrait-sheen" aria-hidden="true"></div>
+            </div>
+            <div class="portrait-caption">
+              <span class="caption-title">Manas Dalavi</span>
+              <span class="caption-subtitle">B.Tech CS Student · First Year</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline: Newest first -->
+        <div class="timeline-container">
+          <h3 class="timeline-subheading">Academic Timeline</h3>
+
+          <ol class="timeline-list">
+            <!-- 1. Newton School of Technology (Current) -->
+            <li class="timeline-item timeline-current">
+              <div class="timeline-marker" aria-hidden="true">
+                <span class="marker-pulse"></span>
+                <span class="marker-core"></span>
+              </div>
+              <article class="timeline-card">
+                <div class="timeline-card-meta">
+                  <span class="timeline-badge">Current · Year 1</span>
+                  <span class="timeline-period">[NST_YEARS]</span>
+                </div>
+                <h4 class="timeline-institution">Newton School of Technology</h4>
+                <p class="timeline-degree">B.Tech Computer Science &amp; Artificial Intelligence</p>
+                <p class="timeline-location">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  [NST_CITY], Maharashtra, India
+                </p>
+                <p class="timeline-desc">
+                  Focused on core computer science foundations, algorithms, collaborative development, and building
+                  technology with real-world community utility.
+                </p>
+              </article>
+            </li>
+
+            <!-- 2. Sanjay Ghodawat Olympiad School -->
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true">
+                <span class="marker-core"></span>
+              </div>
+              <article class="timeline-card">
+                <div class="timeline-card-meta">
+                  <span class="timeline-badge subtle">Higher Secondary</span>
+                  <span class="timeline-period">[GHODAWAT_YEARS]</span>
+                </div>
+                <h4 class="timeline-institution">Sanjay Ghodawat Olympiad School</h4>
+                <p class="timeline-degree">Higher Secondary Education (Up to 12th Grade)</p>
+                <p class="timeline-location">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  [GHODAWAT_CITY], Maharashtra, India
+                </p>
+                <p class="timeline-desc">
+                  Rigorous preparation in mathematics, analytical problem solving, scientific principles, and
+                  disciplined curiosity.
+                </p>
+              </article>
+            </li>
+
+            <!-- 3. Podar International School -->
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true">
+                <span class="marker-core"></span>
+              </div>
+              <article class="timeline-card">
+                <div class="timeline-card-meta">
+                  <span class="timeline-badge subtle">Secondary</span>
+                  <span class="timeline-period">[PODAR_YEARS]</span>
+                </div>
+                <h4 class="timeline-institution">Podar International School</h4>
+                <p class="timeline-degree">Secondary Education (Up to 10th Grade)</p>
+                <p class="timeline-location">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  [PODAR_CITY], Maharashtra, India
+                </p>
+                <p class="timeline-desc">
+                  Formative school years cultivating foundational curiosity, artistic interests, public communication,
+                  and early engagement with computing.
+                </p>
+              </article>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+
+        <header class="section-header">
+          <span class="section-eyebrow">Engagement &amp; Leadership</span>
+          <h2 id="experience-heading" class="section-title">Where I contribute &amp; build.</h2>
+          <p class="section-subtitle">
+            Active roles inside campus initiatives, student organizations, and technology teams.
+          </p>
+        </header>
+
+        <div class="cards-grid">
+
+          <!-- Card 1: NST SDC & SDC-funds Project -->
+          <article class="card card-featured">
+            <div class="card-glow" aria-hidden="true"></div>
+            <div class="card-top">
+              <div class="card-meta">
+                <span class="card-tag">Technical Society</span>
+                <span class="card-status-badge">[SDC_FUNDS_STATUS]</span>
+              </div>
+              <h3 class="card-title">NST SDC (Student Developer Club)</h3>
+              <p class="card-role">Role: <strong class="highlight-gold">[SDC_ROLE]</strong></p>
+            </div>
+
+            <div class="card-body">
+              <p class="card-summary">
+                [SDC_CONTRIBUTIONS]
+              </p>
+
+              <!-- Nested Featured Project: SDC-funds -->
+              <div class="nested-project">
+                <div class="nested-project-header">
+                  <div class="project-indicator" aria-hidden="true"></div>
+                  <div>
+                    <h4 class="nested-project-title">Featured Project: SDC-funds</h4>
+                    <span class="nested-project-subtitle">Funds portal for Newton School’s campus clubs</span>
+                  </div>
+                </div>
+                <p class="nested-project-desc">
+                  A centralized financial workflow portal engineered to bring transparent accounting, disbursement
+                  tracking, and budget approvals to all student clubs across campus.
+                </p>
+                <div class="tech-stack-wrap">
+                  <span class="tech-label">Tech Stack:</span>
+                  <code class="tech-pill">[SDC_FUNDS_TECH_STACK]</code>
+                </div>
+                <div class="project-actions">
+                  <a href="[SDC_FUNDS_LIVE_LINK]" class="card-link" target="_blank" rel="noopener noreferrer">
+                    <span>Explore SDC-funds Project</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: NST SHARKSPHERE (E-Cell) -->
+          <article class="card">
+            <div class="card-top">
+              <div class="card-meta">
+                <span class="card-tag">Entrepreneurship Cell</span>
+              </div>
+              <h3 class="card-title">NST SHARKSPHERE</h3>
+              <p class="card-role">Role: <strong class="highlight-gold">[SHARKSPHERE_ROLE]</strong></p>
+            </div>
+
+            <div class="card-body">
+              <p class="card-summary">
+                [SHARKSPHERE_CONTRIBUTIONS]
+              </p>
+
+              <div class="card-sub-block">
+                <h4 class="sub-block-title">Flagship Initiatives &amp; Events</h4>
+                <p class="sub-block-content">[SHARKSPHERE_EVENTS]</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Ensemble Cultural Club -->
+          <article class="card">
+            <div class="card-top">
+              <div class="card-meta">
+                <span class="card-tag">Creative &amp; Arts</span>
+              </div>
+              <h3 class="card-title">Ensemble Cultural Club</h3>
+              <p class="card-role">Role: <strong class="highlight-gold">[ENSEMBLE_ROLE]</strong></p>
+            </div>
+
+            <div class="card-body">
+              <p class="card-summary">
+                [ENSEMBLE_CONTRIBUTIONS]
+              </p>
+
+              <div class="card-sub-block">
+                <h4 class="sub-block-title">Events &amp; Performances</h4>
+                <p class="sub-block-content">[ENSEMBLE_EVENTS_OR_PERFORMANCES]</p>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. LIFE SECTION -->
+    <section class="section life-section" id="life" aria-labelledby="life-heading">
+      <div class="container">
+
+        <header class="section-header">
+          <span class="section-eyebrow">Perspective &amp; Expression</span>
+          <h2 id="life-heading" class="section-title">Away from the screen.</h2>
+          <p class="section-subtitle life-quote">
+            “Away from the screen, I sing a lot, I draw, and I follow whatever hobby catches my curiosity next.”
+          </p>
+        </header>
+
+        <div class="life-grid">
+
+          <!-- Tile 1: Singing -->
+          <article class="life-tile">
+            <div class="life-tile-media">
+              <img src="assets/life-singing.jpg"
+                alt="Acoustic music atmosphere with vintage studio microphone and guitar" class="life-tile-img"
+                width="800" height="600" loading="lazy">
+              <div class="life-tile-vignette" aria-hidden="true"></div>
+            </div>
+            <div class="life-tile-body">
+              <span class="life-tag">Voice &amp; Music</span>
+              <h3 class="life-tile-title">Singing</h3>
+              <p class="life-tile-desc">
+                Music gives me balance and stillness. Singing is where melody meets emotion—a grounded, personal space
+                to listen deeply and reflect.
+              </p>
+
+              <!-- Optional audio preview clip (Commented out: uncomment and set src="assets/singing-sample.mp3" to enable) -->
+              <!--
+              <div class="audio-clip-wrapper">
+                <label for="singing-audio" class="audio-label">Listen to a vocal snippet:</label>
+                <audio id="singing-audio" controls preload="none" class="custom-audio-player">
+                  <source src="assets/singing-sample.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+              -->
+            </div>
+          </article>
+
+          <!-- Tile 2: Drawing -->
+          <article class="life-tile">
+            <div class="life-tile-media">
+              <img src="assets/life-drawing.jpg" alt="Sketchbook with graphite and charcoal drawings on sepia paper"
+                class="life-tile-img" width="800" height="600" loading="lazy">
+              <div class="life-tile-vignette" aria-hidden="true"></div>
+            </div>
+            <div class="life-tile-body">
+              <span class="life-tag">Visual Art</span>
+              <h3 class="life-tile-title">Drawing</h3>
+              <p class="life-tile-desc">
+                Putting pencil to paper sharpens observation and patience. Sketching trains the eye to notice
+                subtleties, light, shadows, and human posture.
+              </p>
+            </div>
+          </article>
+
+          <!-- Tile 3: Whatever's Next -->
+          <article class="life-tile">
+            <div class="life-tile-media">
+              <img src="assets/life-curiosity.jpg"
+                alt="Atmospheric workbench with journal, brass magnifying glass, gears, and warm candlelight"
+                class="life-tile-img" width="800" height="600" loading="lazy">
+              <div class="life-tile-vignette" aria-hidden="true"></div>
+            </div>
+            <div class="life-tile-body">
+              <span class="life-tag">Endless Curiosity</span>
+              <h3 class="life-tile-title">Whatever’s next</h3>
+              <p class="life-tile-desc">
+                From mechanical wonders and creative writing to new tools and odd topics, I let genuine curiosity steer
+                my weekend rabbit holes.
+              </p>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. CONTACT SECTION -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-card-wrapper">
+          <div class="contact-header-block">
+            <span class="section-eyebrow">Connect &amp; Collaborate</span>
+            <h2 id="contact-heading" class="section-title">Let’s start a conversation.</h2>
+            <p class="contact-lead">
+              Have a problem worth solving, a role to fill, or a hackathon to run? I’d love to hear from you.
+            </p>
+
+            <div class="contact-direct-actions">
+              <a href="mailto:[EMAIL]" class="direct-email-link">
+                <span class="contact-icon-bubble" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </span>
+                <span class="email-text">[EMAIL]</span>
+              </a>
+
+              <a href="assets/resume.pdf" class="btn btn-primary resume-download-btn" download
+                aria-label="Download Manas Dalavi's Resume PDF">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download resume</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pure HTML Contact Form (Formspree or any static endpoint) -->
+          <div class="contact-form-block">
+            <form action="[FORM_ENDPOINT]" method="POST" class="contact-form">
+              <!-- Hidden Honeypot Field to trap spam bots -->
+              <div class="form-honeypot" aria-hidden="true">
+                <label for="honeypot-input">Do not fill this field</label>
+                <input type="text" id="honeypot-input" name="_gotcha" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Raghav Khandelwal"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. Raghav@example.com"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="5" class="form-textarea"
+                  placeholder="Tell me about your project, idea, or role..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit-btn">
+                <span>Send message</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. SOCIALS & FOOTER -->
+    <section class="section socials-section" id="socials" aria-labelledby="socials-heading">
+      <div class="container socials-container">
+
+        <header class="socials-header">
+          <span class="section-eyebrow">Online Presence</span>
+          <h2 id="socials-heading" class="socials-title">Follow along</h2>
+          <p class="socials-subtext">Find my updates, thoughts, and professional milestones.</p>
+        </header>
+
+        <div class="social-links-grid">
+          <!-- LinkedIn Link -->
+          <a href="https://www.linkedin.com/in/manas-dalavi-62bb23421/" class="social-card" target="_blank"
+            rel="noopener noreferrer" aria-label="Visit Manas Dalavi's LinkedIn Profile">
+            <div class="social-icon-box" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <div class="social-text">
+              <span class="social-platform">LinkedIn</span>
+              <span class="social-handle">Connect on LinkedIn</span>
+            </div>
+            <svg class="external-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+
+          <!-- Instagram Link -->
+          <a href="https://www.instagram.com/manasdalavi._?xtok=MWJucTVhbjAwNmh3OQ%3D%3D&utm_source=qr"
+            class="social-card" target="_blank" rel="noopener noreferrer"
+            aria-label="Visit Manas Dalavi's Instagram Profile">
+            <div class="social-icon-box" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <div class="social-text">
+              <span class="social-platform" href="">Instagram</span>
+              <span class="social-handle">Moments &amp; Art</span>
+            </div>
+            <svg class="external-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Minimal Footer -->
+        <footer class="site-footer" role="contentinfo">
+          <div class="footer-divider" aria-hidden="true"></div>
+          <p class="footer-credit">Made by Manas Dalavi · &copy; 2026</p>
+          <p class="footer-slogan">Change-maker · Newton School of Technology</p>
+        </footer>
+
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
